@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شبكة Perfect Network</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0c0c1f;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2rem;
+        }
+        .servers, .founders {
+            padding: 20px;
+        }
+        .servers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .server-card {
+            background-color: #1a1a2e;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .server-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .server-card button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .server-card button:hover {
+            background-color: #0056b3;
+        }
+        .founders {
+            margin-top: 40px;
+        }
+        .founder-card {
+            display: inline-block;
+            width: 150px;
+            margin: 10px;
+            text-align: center;
+        }
+        .founder-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .founder-card h3 {
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+        .founder-card span {
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <h1>سيرفرات الديسكورد الرسمية</h1>
+    <div class="servers">
+        <div class="server-card">
+            <img src="server1.jpg" alt="سيرفر التصفيات">
+            <button>التصفيات</button>
+        </div>
+        <div class="server-card">
+            <img src="server2.jpg" alt="سيرفر الكتائب">
+            <button>الكتائب</button>
+        </div>
+        <div class="server-card">
+            <img src="server3.jpg" alt="الدعم الفني">
+            <button>الدعم الفني</button>
+        </div>
+        <div class="server-card">
+            <img src="server4.jpg" alt="الرئيسي">
+            <button>الرئيسي</button>
+        </div>
+    </div>
+
+    <h1>المؤسسون والفاوندرات</h1>
+    <div class="founders">
+        <div class="founder-card">
+            <img src="founder1.jpg" alt="محمد">
+            <h3>محمد</h3>
+            <span>Community Owner</span>
+        </div>
+        <div class="founder-card">
+            <img src="founder2.jpg" alt="sCAy">
+            <h3>sCAy</h3>
+            <span>Community Owner</span>
+        </div>
+        <div class="founder-card">
+            <img src="founder3.jpg" alt="Nero">
+            <h3>Nero</h3>
+            <span>Founder</span>
+        </div>
+        <div class="founder-card">
+            <img src="founder4.jpg" alt="7ORS">
+            <h3>7ORS</h3>
+            <span>Founder</span>
+        </div>
+    </div>
+</body>
+</html>
